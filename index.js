@@ -2,11 +2,11 @@
 const kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
-  array.unshift(name);
+  kittens.unshift(name);
 }
 
 function destructivelyRemoveLastKitten() {
-  array.pop();
+  kittens.pop();
 }
 
 function appendKitten(name) {
