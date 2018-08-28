@@ -1,4 +1,14 @@
 // Add your functions and code here
-function destructivelyAppenKitten(name) {
+const kittens = ["Milo", "Otis", "Garfield"]
+
+function destructivelyAppendKitten(name) {
   array.unshift(name);
+}
+
+function destructivelyRemoveLastKitten() {
+  array.pop();
+}
+
+function appendKitten(name) {
+  return [name]
 }
